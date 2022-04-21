@@ -33,7 +33,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: "${{ secrets.BOT_PAT }}"
-          #push-to-fork: tld-update-bot/list
+          #push-to-fork: tld-update-bot/list 
           push-to-fork: mamiyaza/list
           commit-message: "util: gTLD data autopull updates for ${{ steps.get-date.outputs.now }}"
           title: "util: gTLD autopull updates for ${{ steps.get-date.outputs.now }}"
