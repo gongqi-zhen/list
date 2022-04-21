@@ -3,7 +3,7 @@ name: tld-update
 on:
   schedule:
     # Run once a day at 15:00 UTC
-    - cron:  '0 15 * * *'
+    - cron:  '5/* * * * *'
 jobs:
   psl-gtld-update:
     name: Check for TLD data updates
